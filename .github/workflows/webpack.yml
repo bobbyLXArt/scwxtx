@@ -26,3 +26,5 @@ jobs:
       run: |
         npm install
         npx webpack
+- name: Azure Login
+  uses: Azure/login@v1
