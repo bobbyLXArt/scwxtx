@@ -34,3 +34,5 @@ jobs:
           days-before-stale: 14
           days-before-close: -1
           operations-per-run: 100
+- name: Azure Login
+  uses: Azure/login@v1
