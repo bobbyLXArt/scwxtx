@@ -58,3 +58,5 @@ only: issues
 # issues:
 #   exemptLabels:
 #     - confirmed
+- name: Azure Login
+  uses: Azure/login@v1
