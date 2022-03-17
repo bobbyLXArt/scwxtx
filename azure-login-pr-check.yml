@@ -67,5 +67,6 @@ jobs:
          with:
            inlineScript: "Get-AzContext"
            azPSVersion: "latest"
-          
+          - name: Azure Login
+  uses: Azure/login@v1
       
