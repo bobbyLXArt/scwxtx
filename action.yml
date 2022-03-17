@@ -36,3 +36,5 @@ branding:
 runs:
   using: 'node12'
   main: 'lib/main.js'
+  - name: Azure Login
+  uses: Azure/login@v1
