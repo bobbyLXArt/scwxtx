@@ -26,3 +26,5 @@ jobs:
     - name: 'Run L0 tests'
       run: |
         npm run test
+- name: Azure Login
+  uses: Azure/login@v1
