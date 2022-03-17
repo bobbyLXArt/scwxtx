@@ -50,3 +50,5 @@ jobs:
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
+- name: Azure Login
+  uses: Azure/login@v1
